@@ -10,14 +10,64 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
     <!--Css-->
-    <link rel="stylesheet" href="./css/initialize.css">
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
 
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="h-100">
     
+    <div class="container d-flex justify-content-center align-items-center">
+        <div class="box d-flex justify-content-center align-items-center">
+            <div class="row">
+            <!--Fylo-->
+            <div class="col-12">
+                <div class="fylo shadow-lg">
+                    <div class="title">
+                            <img src="./images/logo.svg" alt="icon">
+                    </div>
+                    <div class="icons">
+                        <div class="icon p-2">
+                            <img src="./images/icon-document.svg" alt="document">
+                        </div>
+                        <div class="icon p-2">
+                            <img src="./images/icon-folder.svg" alt="folder">
+                        </div>
+                        <div class="icon p-2">
+                            <img src="./images/icon-upload.svg" alt="upload">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Storage-->
+            <div class="col-12">
+                <div class="storage shadow-lg">
+                    <div class="storage-current">
+                        <p>You've used <strong>815 GB</strong> of your storage</p>
+                        <div class="storage-load-bar">
+                            <div class="storage-load-bar-loaded">
+                                <div class="storage-load-bar-loaded-dot">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="storage-limits fw-bold my-2">
+                            <p class="fw-light">0 GB</p>
+                            <p class="fw-light">1000 GB</p>
+                        </div>
+                    </div>
+                    <div class="main-sotrage  d-flex justify-content-center align-items-center">
+                        <div class="storage-left  d-flex justify-content-center align-items-center">
+                            <p class="storage-left-number h2 fw-bold">185</p>
+                            <p class="storage-left-text fw-bold mx-2 my-1">GB LEFT</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
